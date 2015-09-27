@@ -25,7 +25,7 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 チームAi<br>
 20112166　　グェン。ヴァン。トゥ    tunv<br>
-20112289　　ダオ。ホン。トゥアン<br>
+20112289　　ダオ。ホン。トゥアン    thuandh<br>
 20112107　　チャン。ヒュー。タィ    taith<br>
 20112188　　グェン。ティエン。タイン<br>
 20111889      グェン。タイン。ナム
