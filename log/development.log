@@ -584,3 +584,442 @@ Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
 Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:50:40 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 19ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 203.162.22.138 at 2015-10-05 03:50:52 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://fe-training-thuan123.c9.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 30ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:50:53 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 203.162.22.138 at 2015-10-05 03:55:20 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://fe-training-thuan123.c9.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 40ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:55:21 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:56:17 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 235ms (Views: 221.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:57:29 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 175ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 03:58:47 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 230ms (Views: 213.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:05:23 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 289ms (Views: 273.0ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/users/sign_out" for 203.162.22.138 at 2015-10-05 04:05:32 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hMVu19s4Q/jSDSp0kpU9V61rioEuIGtvDp3MjXKLRfcaNW/PQJ3Q8wtfLaxuxuNcgzzAydYer+Ti85A35UNeFw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://fe-training-thuan123.c9.io/
+Completed 302 Found in 23ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:05:33 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <h3>Hello, <%= current_user.email %>!</h3>
+    11: <%= link_to "Log out", destroy_user_session_path,method: :delete %>
+    12: <hr>
+    13: <%= yield %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___1429315476324621131_48800940'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.5ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:05:52 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <h3>Hello, <%= current_user.email %>!</h3>
+    11: <%= link_to "Log out", destroy_user_session_path,method: :delete %>
+    12: <hr>
+    13: <%= yield %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___1429315476324621131_48800940'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+
+
+Started GET "/sign_in" for 203.162.22.138 at 2015-10-05 04:06:03 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.3ms)
+
+
+Started GET "/users/sign_in" for 203.162.22.138 at 2015-10-05 04:06:11 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <h3>Hello, <%= current_user.email %>!</h3>
+    11: <%= link_to "Log out", destroy_user_session_path,method: :delete %>
+    12: <hr>
+    13: <%= yield %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___1429315476324621131_48800940'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.3ms)
+
+
+Started GET "/users/sign_in/" for 203.162.22.138 at 2015-10-05 04:06:16 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <h3>Hello, <%= current_user.email %>!</h3>
+    11: <%= link_to "Log out", destroy_user_session_path,method: :delete %>
+    12: <hr>
+    13: <%= yield %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___1429315476324621131_48800940'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/users/sign_in" for 203.162.22.138 at 2015-10-05 04:06:38 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <h3>Hello, <%= current_user.email %>!</h3>
+    11: <%= link_to "Log out", destroy_user_session_path,method: :delete %>
+    12: <hr>
+    13: <%= yield %>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___1429315476324621131_48800940'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:07:10 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/application.html.erb:12: syntax error, unexpected '<', expecting ')'
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting ')'
+</body>
+ ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:16: unknown regexp options - htl
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:17: unterminated string meets end of file
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:17: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:16: unknown regexp options - htl
+  app/views/layouts/application.html.erb:17: unterminated string meets end of file
+  app/views/layouts/application.html.erb:17: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.6ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:07:29 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:09:48 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 203.162.22.138 at 2015-10-05 04:09:51 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:12:01 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 203.162.22.138 at 2015-10-05 04:12:06 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/registrations/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:15:13 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/application.html.erb:10: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+...r.append=( if user_signed_in? );@output_buffer.safe_append='
+...                               ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+'.freeze;@output_buffer.append=( else );@output_buffer.safe_append='
+                                     ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.safe_append='
+                                    ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:10: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+  app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+  app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+  app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.5ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:15:38 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+'.freeze;@output_buffer.append=( else );@output_buffer.safe_append='
+                                     ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.safe_append='
+                                    ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+  app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+  app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.2ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:15:40 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+'.freeze;@output_buffer.append=( else );@output_buffer.safe_append='
+                                     ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );@output_buffer.safe_append='
+                                    ^
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:13: syntax error, unexpected keyword_else
+  app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_end
+  app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.4ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:15:54 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 203.162.22.138 at 2015-10-05 04:15:58 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.2/app/views/devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 203.162.22.138 at 2015-10-05 04:16:06 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LwaAcAt2oSCp/3teod3Viza8k5fZrAwy5jUl3OB68oIQ5mkpERzM0fX11VVIjS6obJLKhjG5Jx9Fn+fbO4RmEQ==", "user"=>{"email"=>"thuanbk56@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "thuanbk56@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2015-10-05 04:16:06.112784"], ["sign_in_count", 2], ["updated_at", "2015-10-05 04:16:06.115193"], ["id", 1]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to https://fe-training-thuan123.c9.io/
+Completed 302 Found in 126ms (ActiveRecord: 8.3ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:16:07 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 203.162.22.138 at 2015-10-05 04:16:12 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"o8zXHnTlyxp/wTJ9oyE+vKvf1SB5rg/3vs6eAbzLfE60z3sPjh51zXI7wr5g2i9UDSCtmyeEr+5/tLN7pjURwA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://fe-training-thuan123.c9.io/
+Completed 302 Found in 12ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 203.162.22.138 at 2015-10-05 04:16:13 +0000
+Cannot render console from 203.162.22.138! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
