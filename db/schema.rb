@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151012023333) do
+ActiveRecord::Schema.define(version: 20151012042208) do
+
+  create_table "user_logs", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "log_data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "userlogs", force: :cascade do |t|
     t.integer  "user_id"
