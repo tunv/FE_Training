@@ -11,9 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20151012025529) do
-=======
 ActiveRecord::Schema.define(version: 20151012031757) do
 
   create_table "user_logs", force: :cascade do |t|
@@ -22,7 +19,6 @@ ActiveRecord::Schema.define(version: 20151012031757) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
->>>>>>> 7c71ea3... refs#31 Create user log
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
