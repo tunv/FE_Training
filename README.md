@@ -15,6 +15,7 @@ To get started, just do the following:
 2. Preview your new app by clicking on the URL that appears in the Run panel below (https://fe-training-tunv-2.c9.io/).
 Happy coding!
 The Cloud9 IDE team
+DAOHONGTHUAN
 ## Support & Documentation
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
