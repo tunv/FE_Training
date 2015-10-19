@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @goal.user_id %>
+</p>
+
+<p>
+  <strong>Number of questions:</strong>
+  <%= @goal.number_of_questions %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @goal.deadline %>
+</p>
+
+<hr>
+
+<p>
+  <strong>Answered questions:</strong>
+  <%= @goal.answered_questions %>
+</p>
+
+<p>
+  <strong>Remaining questions:</strong>
+  <%= @goal.number_of_questions - @goal.answered_questions  %>
+</p>
+
+<p>
+  <strong>Days left:</strong>
+  <%= (@goal.deadline - Time.zone.now)/86400 %>
+</p>
+
+<strong>You have to answer <%= (@goal.number_of_questions - @goal.answered_questions)*86400/(@goal.deadline - Time.zone.now) %> questions per day for complete this goal.</strong>
+
+<hr>
+
+<%= link_to 'Edit', edit_goal_path(@goal) %> |
+<%= link_to 'Back', goals_path %>
