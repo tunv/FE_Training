@@ -16,8 +16,12 @@ To get started, just do the following:
 
 Happy coding!
 The Cloud9 IDE team
+<<<<<<< HEAD
+DAOHONGTHUAN
+=======
 
 
+>>>>>>> 9d63f35ebd721fbc85d360ba6a72b77aecdde438
 ## Support & Documentation
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
