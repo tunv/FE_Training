@@ -20,7 +20,22 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
-
+  
+   <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :gender %><br />
+    <%= f.select :gender, options_for_select(["Male", "Female"], "Male") %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :age %><br />
+    <%= f.select :age, options_for_select((10..99).to_a, 25) %>
+  </div>
+  
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
