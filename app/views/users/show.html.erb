@@ -1,0 +1,19 @@
+<h1><%= @user.name %></h1>
+<hr>
+<h4>Email: <%= @user.email %></h4>
+<h4>Age: <%= @user.age %></h4>
+<h4>Gender: <%= @user.gender %></h4>
+<hr>
+<% if @is_me %>
+    <% @user.friends.each_with_index do |friend, i| %>
+        <% if friend.user_id == @user.id %>
+            <h4><%= "#{i+1}. #{User.find(friend.friend_id).name} - #{@user.status_with(friend.friend_id).to_s}" %></h4>
+        <% else %>
+            <h4><%= "#{i+1}. #{User.find(friend.user_id).name} - #{@user.status_with(friend.user_id).to_s}" %></h4>
+            <% if !friend.accepted %>
+                <%= link_to 'Accept', friend, method: :put, data: { confirm: 'Are you sure?' } %>
+                <%= link_to 'Reject', friend, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <% end %>
+        <% end %> 
+    <% end %>
+<% end %>
